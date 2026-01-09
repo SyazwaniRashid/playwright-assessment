@@ -1,0 +1,66 @@
+{
+	"info": {
+		"_postman_id": "6a8a2482-eff1-4868-8dfc-8dc9ceb1f41d",
+		"name": "QA Assessment",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "51365440",
+		"_collection_link": "https://sitisyazwanirashid-7484915.postman.co/workspace/c118aacc-0ce3-4416-8664-0dc2e48fe333/collection/51365440-6a8a2482-eff1-4868-8dfc-8dc9ceb1f41d?action=share&source=collection_link&creator=51365440"
+	},
+	"item": [
+		{
+			"name": "watchlist_get",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://qainterview.netlify.app",
+					"protocol": "https",
+					"host": [
+						"qainterview",
+						"netlify",
+						"app"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "watchlist_post",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"symbol\": \"AAPL\",\r\n  \"name\": \"Apple Inc\",\r\n  \"price\": 180\r\n}\r\n\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://qainterview.netlify.app",
+					"protocol": "https",
+					"host": [
+						"qainterview",
+						"netlify",
+						"app"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
